@@ -1,4 +1,6 @@
-# Course Overview
+# M001 - MongoDB Basics
+
+## Course Overview
 Learn the fundamentals of MongoDB.
 
 Course URL: [M001: MongoDB Basics](https://university.mongodb.com/courses/M001/about)
