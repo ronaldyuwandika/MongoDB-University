@@ -1,7 +1,5 @@
 # Connecting to Our Class Atlas Cluster from the mongo Shell
 
-## Connecting to the class atlas cluster from the mongo shell
-
 Use this following commands to connect MongoDB Atlas cluster that we make before.
 
 ```sh
@@ -14,8 +12,10 @@ If in case you are unable to connect using the srv connection string then please
 mongo "mongodb://cluster0-shard-00-00-jxeqq.mongodb.net:27017,cluster0-shard-00-01-jxeqq.mongodb.net:27017,cluster0-shard-00-02-jxeqq.mongodb.net:27017/test?replicaSet=Cluster0-shard-0" --authenticationDatabase admin --ssl --username m001-student --password m001-mongodb-basics
 ```
 
-**Note**
+**Notes:**
 
 While connecting to your MongoDB Atlas cluster, or any MongoDB server, from the mongo shell, you may see the following warning message.
 
-```... WARNING: shell and server versions do not match```
+```sh
+... WARNING: shell and server versions do not match
+```
